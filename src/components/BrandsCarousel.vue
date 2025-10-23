@@ -6,6 +6,7 @@
       </div>
     </div>
   </div>
+  <div id="products"></div>
 </template>
 
 <script setup>

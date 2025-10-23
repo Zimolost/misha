@@ -13,7 +13,7 @@
         <span class="price">$ 123124</span>
       </p> -->
       <div class="actions">
-        <button class="btn">К товарам</button>
+        <a class="btn" href="#products">К товарам</a>
       </div>
     </div>
     <div class="slider__img__block">

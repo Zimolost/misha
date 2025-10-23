@@ -1,4 +1,5 @@
 <template>
+  <div id="categories"></div>
   <div class="gallery-grid">
     <p class="section-title">Категории</p>
     <!-- First row: 2 large blocks -->

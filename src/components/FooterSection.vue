@@ -23,7 +23,7 @@
               <img src="../img/telegram.png" alt="телеграм" class="icon-img" />
             </span>
           </a>
-          <a href="/" class="social-link" aria-label="ВКонтакте">
+          <a href="https://m.vk.com/kondratevmisha" class="social-link" aria-label="ВКонтакте">
             <span class="icon icon-twitter">
               <img src="../img/vk.png" alt="вконтакте" class="icon-img" />
             </span>

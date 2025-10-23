@@ -1,5 +1,5 @@
 <template>
-  <section class="products-section">
+  <section id="products" class="products-section">
     <div class="section__top">
       <h2 class="section-title">Наши лучше товары</h2>
       <div class="controls">
@@ -23,19 +23,19 @@
           <h3 class="title">{{ productNames[p - 1] }}</h3>
           <div class="meta-top">
             <div class="stars">
-              <img src="../img/star-y.png" alt="" class="star-img" v-for="n in 3" :key="n" />
-              <img src="../img/star-g.png" alt="" class="star-img" v-for="m in 5 - 3" :key="m" />
+              <img src="../img/star-y.png" alt="" class="star-img" v-for="n in 4" :key="n" />
+              <img src="../img/star-g.png" alt="" class="star-img" v-for="m in 5 - 4" :key="m" />
             </div>
             <span class="reviews">(12 отзывов)</span>
           </div>
           <div class="price">
-            <p class="product-price">₽ 10000.00</p>
+            <p class="product-price">₽ {{ prices[p - 1] }}</p>
           </div>
         </div>
       </article>
     </div>
 
-    <button class="products__link" @click="toProducts">Больше товаров...</button>
+    <button id="about" class="products__link" @click="toProducts">Больше товаров...</button>
   </section>
 </template>
 
@@ -54,6 +54,8 @@ import p11 from '../img/p11.png'
 import p12 from '../img/p12.png'
 
 const imgs = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12]
+
+const prices = [25000, 22000, 17000, 26000, 23000, 15000, 3000, 35000, 36000, 20000, 12000, 700]
 
 const productNames = [
   'Шлем',

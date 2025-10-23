@@ -5,15 +5,13 @@
     </div>
     <ul class="nav-bar">
       <li>
-        <router-link to="/categories" class="nav-link" active-class="active-link"
-          >Категории</router-link
-        >
+        <a href="#categories" class="nav-link" active-class="active-link">Категории</a>
       </li>
       <li>
-        <router-link to="/products" class="nav-link" active-class="active-link">Товары</router-link>
+        <a href="#products" class="nav-link" active-class="active-link">Товары</a>
       </li>
       <li>
-        <router-link to="/about" class="nav-link" active-class="active-link">О нас</router-link>
+        <a href="#about" class="nav-link" active-class="active-link">О нас</a>
       </li>
       <li>
         <a href="#contacts" class="nav-link">Контакты</a>
